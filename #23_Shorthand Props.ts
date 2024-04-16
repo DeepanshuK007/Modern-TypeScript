@@ -13,9 +13,9 @@ class Persons { //! no '=' while declaring a class
         this.name = name;
         this.age = age;
         this.hobbies = hobbies;
-    } {}
+    } 
     
-    introduceParent(): string {
-        return `Hi, Im ${this.name} and im ${this.age} years old. I love ${this.hobbies.join(seperator: ",")}. `;
-    }
+    // introduceParent(): string {
+    //     return `Hi, Im ${this.name} and im ${this.age} years old. I love ${this.hobbies.join(seperator: ",")}. `;
+    // }
 }
